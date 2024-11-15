@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.可拖动窗口 {
+  -webkit-app-region: drag;
+}
+
+* {
+  -webkit-app-region: no-drag;
+}
